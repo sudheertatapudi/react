@@ -6,15 +6,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => (
   <>
-    <div>
+    <div className="container">
       <h2>Articles</h2>
       <List />
     </div>
-    <div>
+    <div className="container">
       <h2>Add a new article</h2>
       <Form />
     </div>
-    <div>
+    <div className="container">
       <h2>API posts</h2>
       <Post />
     </div>
